@@ -11,7 +11,7 @@ variable "repository_name" {
   type        = string
   default     = "terraform-managed-repo"
 }
- 
+
 variable "repository_description" {
   description = "Description of the GitHub repository"
   type        = string
